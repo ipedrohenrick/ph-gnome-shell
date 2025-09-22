@@ -18,16 +18,16 @@
 import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import TrayIcons from './trayIcons.js';
-import IconTheme from './iconTheme.js';
+import GnomeTheme from './GnomeTheme.js';
 
 export default class PlainExampleExtension extends Extension {
   enable() {
     this.trayIcons = new TrayIcons();
-    this.iconTheme = new IconTheme();
+    this.GnomeTheme = new GnomeTheme();
   }
 
   disable() {
     this.trayIcons.destroy();
-    this.iconTheme.destroy();
+    this.GnomeTheme.destroy();
   }
 }

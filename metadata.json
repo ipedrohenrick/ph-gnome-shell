@@ -1,7 +1,7 @@
 {
   "name": "PH Shell",
   "description": "IPedroHenrick Gnome Shell Customizations",
-  "uuid": "pedrohenrickqa@gmail.com",
+  "uuid": "ph-shell@ipedrohenrick.github.com",
   "shell-version": [
     "48"
   ]
